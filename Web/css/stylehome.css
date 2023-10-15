@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px; /* ปรับความสูงตามที่คุณต้องการ */
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('your-image.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(20px); /* ปรับระดับความเบลอตามที่คุณต้องการ */
+    z-index: -1;
+}
+
+.nav-bar {
+    position: relative;
+    width: 100%;
+    height: 70px; /* ปรับความสูงตามที่คุณต้องการ */
+    background: rgba(255, 255, 255, 0.7); /* สีพื้นหลังของแถบบน */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* จัดวางข้อความไปชิดกับเส้นเลย */
+}
+
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+    
+}
+
+
+.bxs-home {
+    color: white;
+    position: fixed;
+    right: 5%;
+    width: -60px;
+    height: 63px;
+    align-items: center;
+    display: flex;
+    margin-right: 80%;
+}
+
+.bxs-shopping-bag {
+    color: white;
+    position: fixed;
+    margin-left: 30%;
+    width: 100px;
+    height: 6px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
